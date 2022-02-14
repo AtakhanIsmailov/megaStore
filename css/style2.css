@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+}
+.main{
+    background-color: white;
+    width: 1440px;
+    height: 1787px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+h2{
+    font-size: 14px;
+}
+/* Данные о ваших доходах */
+.data1 .data2{
+    width: 616px;
+    background-color: #E5E5E5;
+    border: none;
+    margin: 0 auto;
+}
+.text-data1 , .text-data2{
+    display: flex;
+}
+.text-data1 p{
+    width: 200px;
+    margin-right: 10px;
+}
+.main input{
+    border: 1px solid #DADADA;
+    border-radius: 8px;
+    padding: 16px;
+}
+.data1-input1{
+    width: 200px;
+    margin-right: 8px;
+}
+.data1-input2{
+    width: 408px;
+}
+.data2-input{
+    width: 304px;
+}
+.one{
+    margin-right: 8px;
+}
+.text-data2-1{
+    margin-right: 165px;
+}
+/* Сведения о кредите */
+.Appletext{
+    width: 625px;
+}
+.text-data3, .text-data4{
+    display: flex;
+}
+.text-data3 p, .text-data4 p{
+    width: 210px;
+}
+.data4-input {
+    display: flex;
+    width: 200px;
+
+}
+.data4-input input{
+    margin-right: 8px;
+}
+.data5{
+    display: flex;
+}
+.data5 select{
+    margin-right: 8px;
+    padding: 16px;
+}
+select{
+    border: 1px solid #E5E5E5;
+    border-radius: 8px;
+    display: flex;
+}
+.data5-1, .data5-2, .data5-3{
+    width: 204px;
+    color: #DADADA ;
+    margin-right: 8px;
+}
+button{
+    border: 1px solid #232529;
+    border-radius: 4px;
+    width: 384px;
+    padding-top:  10px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    background-color: #232529;
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+}
+.button{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    width: 616px;
+}
+input::-webkit-input-placeholder {
+    color: #DADADA;
+}
+
+
+
